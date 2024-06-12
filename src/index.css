@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* index.css */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo {
+  display: flex;
+  border: 2px solid black;
+  height: 75px;
+  font-size: 25px;
+}
+
+.logo h1 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.top {
+  border-left: 2px solid black;
+  padding-left: 30px;
+}
+
+.top h3 {
+  font-size: 37px;
+}
+
+.top p {
+  font-size: 28px;
+}
+
+table {
+  margin-top: 30px;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+th {
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+  cursor: text;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+/* Green */
+button {
+  background-color: purple;
+}
+
+button:hover {
+  background-color: rgb(150, 6, 150);
+}
+
+/* Red */
+button.deleteBtn {
+  background-color: #f44336;
+}
+
+button.deleteBtn:hover {
+  background-color: #d32f2f;
+}
+
+/* Red */
+button#hh {
+  background-color: #f44336;
+}
+
+button#hh:hover {
+  background-color: #d32f2f;
 }
